@@ -102,15 +102,12 @@ theme: argon
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: git@github.com:FurryRbl/SharpIce.top.git
+  branch: web
+  message: 更新网站
 
 search:
   path: search.xml
   field: post
   content: true
-
-  deploy:
-  type: git
-  repo: git@github.com:FurryRbl/SharpIce.top.git
-  branch: web
-  message: 更新网站
